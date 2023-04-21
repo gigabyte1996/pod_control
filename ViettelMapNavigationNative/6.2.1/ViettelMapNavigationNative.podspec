@@ -29,10 +29,8 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-   s.source = {  
-    :http => "https://files-maps.viettel.vn/ios-sdk/MapboxNavigationNative-ios-sdk-6.2.1.zip", 
-    :flatten => true
-  }
+     s.source       = { :http => 'file:' + '/Users/vyho/Downloads/MapboxNavigationNative-ios-sdk-6.2.1.zip' }
+
  
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -42,4 +40,4 @@ Pod::Spec.new do |s|
   s.libraries = "c++"
   
 
-endv
+end
