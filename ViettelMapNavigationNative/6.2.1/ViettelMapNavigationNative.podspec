@@ -42,4 +42,4 @@ Pod::Spec.new do |s|
   s.libraries = "c++"
   
 
-end
+endv
